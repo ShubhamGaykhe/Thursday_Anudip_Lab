@@ -111,34 +111,13 @@ public class MenuDriven {
 				// performing conditional operator
 				
 				System.out.println("\n\n-*-*-*-* Conditional Opeartor -*-*-*-*");
-				System.out.println("Types of conditional Operator\n");
+				System.out.println("Enter two number=");
+				num1=input.nextInt();
+				num2=input.nextInt();
+				// Accepting input
 				
-				//List of conditional operator
-				System.out.println("1) if\n"
-						+ "2) if else\n"
-						+ "3) if ifelse else\n"
-						+ "4) switch\n"
-						+ "Enter your choice=");
-				choice2=input.nextInt();
-				switch(choice2)
-				{
-					case 1:
-						System.out.println("Yor are in 'if' condition\n");
-						break;
-						
-					case 2:
-						System.out.println("Yor are in 'if else' condition\n");
-						break;
-						
-					case 3:
-						System.out.println("Yor are in 'if elseif else' condition\n");
-						break;
-					
-					case 4:
-						System.out.println("Yor are in 'switch' condition\n");
-						break;
-				}
-				
+				answer=(num1>num2)?num1:num2;
+				System.out.println(answer+" is greatest number");
 				break;
 					
 			case 6:
